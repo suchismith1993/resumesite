@@ -1,0 +1,96 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #F3F3F3;
+		font-family: 'Questrial', sans-serif;
+		font-size: 12pt;
+		color: rgba(0,0,0,.6);
+	}
+
+
+#wrapper {
+    width: 2200px;
+    transform: translate3d(0, 0, 0);
+  transition: transform .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+
+
+#itemOne {
+    background-image:url('c.png');
+    }
+#itemTwo{
+    background-image:url('CPlusPlus.jpg');
+    }
+    
+
+#itemThree {
+    background-image:url('Java_620X0.jpg');
+    }
+   
+
+#itemFour {
+    background-image:url('sql_new.png');
+    }
+#contentSlider {
+    width: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+}
+
+
+#navLinks {
+    text-align: center;
+    width: 550px;
+}
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: black 5px solid;
+        }
+
+#navLinks ul li:hover {
+                background-color: #FFFF00;
+            }
+           
+#navLinks ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+}
+#navLinks ul li.active:hover {
+    background-color: #484848;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+   
